@@ -16,7 +16,7 @@ public class Valatech {
 		
 	
 		driver.get("https://www.valtech.com/");
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
 		Thread.sleep(2000);
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
